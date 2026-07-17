@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Relatorio Metodologico Pasta Inteira</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.55;
+      color: #1f2933;
+      max-width: 980px;
+      margin: 32px auto;
+      padding: 0 24px;
+      background: #ffffff;
+    }
+    h1 {
+      color: #12385f;
+      border-bottom: 3px solid #1f4e78;
+      padding-bottom: 10px;
+    }
+    h2 {
+      color: #1f4e78;
+      margin-top: 28px;
+      border-bottom: 1px solid #d7e2ee;
+      padding-bottom: 6px;
+    }
+    ul {
+      padding-left: 24px;
+    }
+    li {
+      margin: 4px 0;
+    }
+    code {
+      background: #eef3f8;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+    pre {
+      background: #f6f8fb;
+      color: #17202a;
+      padding: 14px;
+      border-radius: 6px;
+      border: 1px solid #cdd8e4;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      word-break: normal;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 0.92rem;
+    }
+    pre code {
+      background: transparent;
+      color: #17202a;
+      padding: 0;
+      border-radius: 0;
+    }
+    @media print {
+      body { margin: 0; max-width: none; }
+      h1 { page-break-after: avoid; }
+      h2 { page-break-after: avoid; }
+    }
+  </style>
+</head>
+<body>
+<h1>Relatório Metodológico - Pasta Selecionada Inteira</h1>
+<h2>Identificação</h2>
+<ul>
+<li>Data da análise: 17/07/2026</li>
+<li>Relatório gerado em: 17/07/2026 11:14:44</li>
+<li>Modo de análise: Etapa 02 - analisar pasta selecionada inteira</li>
+<li>Arquivo Excel gerado: <code>C:\Users\vande\Downloads\GUILHERME\estação central\ESTAÇÃO PERIFERICA\ESTAÇÃO SUBURBANA\COMPLEMENTAR\matriz_pasta_inteira.xlsx</code></li>
+<li>Total de materiais analisados: 145</li>
+</ul>
+<h2>Estratégia de Busca</h2>
+<p>Consulta booleana utilizada:</p>
+<pre><code>(&quot;minimum density&quot; OR &quot;density threshold&quot; OR &quot;recommended density&quot; OR &quot;optimal density&quot; OR &quot;density standard&quot;) AND (&quot;metro station area&quot; OR &quot;subway station area&quot; OR &quot;rail transit station&quot; OR &quot;transit-oriented development&quot; OR &quot;TOD&quot;)</code></pre>
+<p>Bases selecionadas:</p>
+<ul>
+<li>BDTD</li>
+<li>ERIC</li>
+<li>OpenAlex</li>
+<li>Crossref</li>
+<li>DOAJ</li>
+<li>ArXiv</li>
+</ul>
+<p>Filtros informados:</p>
+<ul>
+<li>Ano inicial: 2015</li>
+<li>Ano final: 2026</li>
+<li>Idioma: Não informado</li>
+<li>Tipo de documento: Não informado</li>
+<li>Máximo por base: 25</li>
+<li>Filtro de relevância: True</li>
+<li>Termos obrigatórios: Não informado</li>
+<li>Termos excluídos: Não informado</li>
+</ul>
+<h2>Seleção e Triagem</h2>
+<ul>
+<li>Registros encontrados na busca: 9</li>
+<li>Registros únicos/validados: 9</li>
+<li>PDFs baixados: 0</li>
+<li>Duplicados identificados: 0</li>
+<li>Erros de bases: 1</li>
+</ul>
+<p>Critérios automáticos aplicados:</p>
+<ul>
+<li>consulta às bases selecionadas;</li>
+<li>filtros de ano, idioma e tipo documental;</li>
+<li>termos obrigatórios e termos excluídos;</li>
+<li>filtro de relevância textual quando ativado;</li>
+<li>deduplicação por DOI, título normalizado, primeiro autor, ano e similaridade textual;</li>
+<li>análise metodológica por classificador local ou IA generativa, conforme configuração.</li>
+</ul>
+<h2>Método de Análise</h2>
+<ul>
+<li>Método selecionado: Gemini</li>
+<li>Modelo de IA: gemini-2.5-flash</li>
+<li>Uso efetivo da análise:</li>
+<li>IA generativa: 145</li>
+</ul>
+<p>Persona utilizada:</p>
+<pre><code>Você é um Pesquisador Sênior e orientador acadêmico especializado em planejamento urbano e de transportes, sistemas metroferroviários, Desenvolvimento Orientado ao Transporte Sustentável — DOTS/TOD, uso e ocupação do solo, acessibilidade, centralidade urbana e análise da densidade no entorno de estações.
+
+Sua função é conduzir revisões sistemáticas e análises técnico-científicas destinadas a identificar densidades urbanas adequadas no entorno de estações de metrô e sistemas ferroviários, considerando diferentes contextos territoriais:
+
+estações centrais e localizadas em centros de negócios;
+estações situadas em áreas urbanas periféricas;
+estações suburbanas e de trens metropolitanos;
+estações de integração modal e sistemas park-and-ride;
+áreas consolidadas, emergentes ou passíveis de adensamento.
+
+Você domina métodos de análise espacial, estatística urbana, geoprocessamento, planejamento de redes de transporte, avaliação multicritério e síntese de evidências. Possui experiência com indicadores como:
+
+densidade populacional;
+densidade residencial;
+densidade de empregos;
+densidade construída;
+densidade combinada de população e empregos;
+unidades habitacionais por hectare;
+habitantes e empregos por hectare;
+coeficiente de aproveitamento — Floor Area Ratio (FAR);
+diversidade do uso do solo;
+acessibilidade a empregos, serviços e equipamentos;
+distância e tempo de caminhada até a estação;
+geração e atração de viagens;
+demanda e embarques por estação;
+participação do transporte público;
+capacidade da infraestrutura e dos serviços metroferroviários.
+
+Ao analisar os estudos, deverá distinguir claramente:
+
+densidade existente e densidade recomendada;
+valores mínimos, máximos, médios e ótimos;
+densidade bruta e densidade líquida;
+população residente, empregos e atividades;
+escalas espaciais de 400, 500, 800 e 1.000 metros;
+estações centrais, periféricas e suburbanas;
+metrô, trem metropolitano, VLT e sistemas ferroviários;
+associação estatística e relação causal;
+recomendações normativas e resultados empiricamente observados;
+evidências internacionais e sua aplicabilidade ao contexto brasileiro.
+
+Para cada estudo selecionado, extraia:
+
+referência bibliográfica completa;
+país, cidade e sistema de transporte;
+tipologia da estação;
+área ou raio analisado;
+unidade utilizada para medir densidade;
+densidade existente;
+densidade mínima ou recomendada;
+método de cálculo;
+bases de dados;
+período da análise;
+variáveis explicativas e de controle;
+técnica estatística, espacial ou econométrica;
+efeitos sobre demanda, acessibilidade e participação modal;
+principais resultados;
+limitações;
+recomendações dos autores;
+possibilidade de aplicação em cidades brasileiras.
+
+Não apresente um único valor universal de densidade sem considerar o contexto urbano. Quando os estudos utilizarem unidades diferentes, converta-as para uma unidade comum, preferencialmente habitantes, domicílios ou empregos por hectare, preservando o valor original e explicando o procedimento de conversão.
+
+Avalie criticamente se a densidade recomendada é compatível com:
+
+capacidade da estação e da linha;
+frequência e oferta de transporte;
+infraestrutura de circulação de pedestres;
+disponibilidade de serviços e equipamentos;
+diversidade de usos;
+mercado imobiliário;
+restrições ambientais;
+equidade socioespacial;
+risco de expulsão de moradores e gentrificação;
+capacidade das redes urbanas e dos serviços públicos.
+
+Sua análise final deverá produzir uma matriz comparativa das evidências e propor faixas de densidade diferenciadas para estações centrais, periféricas e suburbanas. Toda recomendação deverá indicar unidade, raio de influência, contexto territorial, nível de evidência e limitações de transferência para outras cidades.</code></pre>
+<h2>Resultados da Classificação</h2>
+<p>Status:</p>
+<ul>
+<li>EXCLUIR APÓS ANÁLISE: 125</li>
+<li>Baixa aderência ao foco principal da persona: 1</li>
+<li>Excluído: 1</li>
+<li>PDF nao disponivel automaticamente: 11</li>
+<li>Publicado: 3</li>
+<li>Não informado: 3</li>
+<li>Analisado: 1</li>
+</ul>
+<p>Nível de aderência:</p>
+<ul>
+<li>NULA: 123</li>
+<li>Baixa. O estudo trata da &#x27;densidade de trens&#x27;, que é um conceito operacional de transporte, e não da &#x27;densidade urbana&#x27; (populacional, de empregos, construída) no entorno das estações, que é o foco principal da persona. Há uma relação indireta com a &#x27;capacidade da infraestrutura e dos serviços metroferroviários&#x27;, um dos indicadores de experiência da persona, mas não com o objetivo primário de identificar densidades urbanas adequadas.: 1</li>
+<li>Nenhuma. O artigo não apresenta qualquer ponto de contato com os temas de interesse da persona.: 1</li>
+<li>Muito baixo. Embora o título &#x27;A New Railway Station in a New Urban District&#x27; sugira uma temática alinhada com o interesse da persona em estações e desenvolvimento urbano, a ausência completa de resumo e conteúdo impede qualquer avaliação sobre a aderência a temas como densidade populacional, densidade de empregos, DOTS, uso e ocupação do solo ou acessibilidade.: 1</li>
+<li>Médio. O artigo aborda a análise de densidade espacial no entorno de estações de trânsito ferroviário e a predição de locais, o que se alinha com o foco da persona em planejamento urbano e de transportes e sistemas metroferroviários. No entanto, não fornece diretamente os indicadores de densidade populacional, residencial ou de empregos, nem as faixas de densidade recomendadas ou a distinção de tipologias de estações e raios de influência que a persona busca especificamente, utilizando uma proxy de densidade que requer validação para outros contextos.: 1</li>
+<li>O nível de aderência é potencialmente alto, mas atualmente limitado pela falta de conteúdo. O título indica uma análise comparativa de áreas de estações e sua vitalização, o que é um tema central para a persona. Se o artigo detalhar indicadores de densidade (populacional, de empregos, construída), uso do solo, acessibilidade e geração de viagens, e diferenciar as tipologias das estações comparadas, ele seria altamente aderente. No entanto, sem o texto completo, não é possível confirmar se esses aspectos são abordados com a profundidade necessária para a revisão sistemática da persona.: 1</li>
+<li>Moderado. Embora o estudo se concentre em um aspecto importante do uso do solo (comércio) e em estações centrais, ele não fornece diretamente os valores de densidade populacional, residencial ou de empregos totais que são o foco principal da tarefa da persona. No entanto, a análise da morfologia comercial é um componente valioso para entender a diversidade e intensidade de uso do solo.: 1</li>
+<li>Nenhuma. O artigo aborda um tema de agronomia (densidade de plantas de soja) que é completamente alheio ao campo de atuação e pesquisa da persona, que é o planejamento urbano e de transportes.: 1</li>
+<li>Alto. O estudo aborda diretamente a análise do entorno de estações de transporte (HSR), a tipologia de estação central, a análise espacial (isócronas de 300-1200s), e indicadores de densidade funcional (POIs/km2) e acessibilidade (fluxo de pedestres). Embora não forneça densidades residenciais ou de empregos, a compreensão da vitalidade do espaço público e da aglomeração funcional é fundamental para o planejamento de DOTS/TOD e para a sustentação de maiores densidades.: 1</li>
+<li>Médio. O artigo adere à temática da persona ao abordar um aspecto fundamental da capacidade do sistema metroferroviário, que é um pré-requisito para o sucesso de estratégias de adensamento urbano. Contudo, sua aderência é indireta, pois o foco está na micro-escala da operação da estação e não na macro-escala da relação entre densidade urbana, uso do solo e geração de viagens, que são os temas centrais da persona.: 1</li>
+<li>Nula: 1</li>
+<li>Nulo. O artigo não se alinha a nenhum dos critérios temáticos da persona, que incluem planejamento urbano e de transportes, sistemas metroferroviários, DOTS/TOD, uso e ocupação do solo, acessibilidade, centralidade urbana e análise da densidade no entorno de estações de transporte.: 1</li>
+<li>Nulo. O artigo não apresenta qualquer aderência aos temas de planejamento urbano e de transportes, densidades no entorno de estações, ou indicadores urbanos de interesse da persona.: 1</li>
+<li>Alto. O artigo aborda diretamente o planejamento do uso do solo e o DOTS em áreas de estações de transporte, que são temas centrais para a persona, embora com uma abordagem mais qualitativa e política do que quantitativa em relação às densidades.: 1</li>
+<li>Alta. O estudo aborda diretamente a relação entre o ambiente construído (incluindo densidade de escritórios) e o fluxo de passageiros em sistemas metroferroviários, diferenciando por tipo de estação e escala espacial. A metodologia de classificação de estações e a análise de heterogeneidade espacial são altamente alinhadas com a necessidade da persona de identificar densidades adequadas para diferentes contextos territoriais e escalas de influência.: 1</li>
+<li>Alta. O título indica uma análise estatística de áreas de estação e corredores ferroviários focada em emprego e crescimento de emprego, o que é diretamente relevante para a persona que busca identificar densidades urbanas adequadas no entorno de estações, especialmente a densidade de empregos e a centralidade urbana.: 1</li>
+<li>Muito baixo. O artigo não aborda nenhum dos temas centrais da persona, como densidade urbana, uso do solo, acessibilidade, DOTS/TOD ou planejamento de transportes sob a perspectiva urbana.: 1</li>
+<li>Alta. O estudo se alinha diretamente com o interesse da persona em planejamento de sistemas metroferroviários e a localização estratégica de estações, que é um pré-requisito para a análise de densidades e o desenvolvimento orientado ao transporte sustentável (DOTS).: 1</li>
+<li>Baixo a Moderado. O estudo adere à parte da persona que trata da &#x27;capacidade da infraestrutura e dos serviços metroferroviários&#x27; e &#x27;infraestrutura de circulação de pedestres&#x27; (dentro da estação). Ele utiliza simulação (VISSIM) e o manual TCRP para analisar o nível de serviço e a capacidade de uma estação de metrô (Shohada Station, Irã). Contudo, a aderência é baixa no que diz respeito ao foco principal da persona: a identificação de densidades urbanas adequadas no entorno de estações, o uso e ocupação do solo, e a análise de indicadores de densidade populacional, de empregos ou construída em diferentes raios de influência.: 1</li>
+<li>BAIXA: 2</li>
+<li>Alta. O estudo aborda diretamente a integração entre sistemas metroferroviários e o desenvolvimento do entorno das estações, com foco na transformação para uso de alta densidade e funções urbanas diversificadas, o que é central para a persona. Embora não forneça dados quantitativos de densidade, ele explica o processo que levou a essa densificação.: 1</li>
+<li>Médio. O estudo aborda a relação entre o ambiente construído (incluindo densidades como residencial e de serviços) e o uso de transporte intermodal (bicicletas compartilhadas) no entorno de estações de metrô, o que é um componente importante do planejamento urbano e de transportes e DOTS/TOD. No entanto, não quantifica diretamente as densidades urbanas ótimas ou recomendadas para estações de metrô, nem distingue tipologias de estações ou raios de influência específicos, que são focos centrais da persona.: 1</li>
+</ul>
+<p>Bases ou origens:</p>
+<ul>
+<li>Crossref: 64</li>
+<li>DOAJ: 65</li>
+<li>OpenAlex: 16</li>
+</ul>
+<p>Tipos documentais:</p>
+<ul>
+<li>TRAB. ANAIS: 8</li>
+<li>ARTIGO: 123</li>
+<li>LIVRO: 4</li>
+<li>RELATÓRIO: 5</li>
+<li>peer-review: 1</li>
+<li>posted-content: 4</li>
+</ul>
+<h2>Erros e Limitações</h2>
+<p>Erros de bases ou execução:</p>
+<ul>
+<li>BDTD: a fonte recusou a consulta pública atual; use chave/API oficial ou tente outra base</li>
+</ul>
+<p>Limitações metodológicas:</p>
+<ul>
+<li>A extração automática de texto de PDF pode falhar em arquivos digitalizados como imagem.</li>
+<li>Quando metadados bibliográficos estão ausentes, alguns campos podem ser inferidos parcialmente a partir do texto ou do nome do arquivo.</li>
+<li>A análise por IA generativa depende da disponibilidade da API, do modelo selecionado e da qualidade do texto extraído.</li>
+<li>O modo de pasta inteira pode incluir materiais acumulados de rodadas anteriores se a pasta não for isolada por busca.</li>
+</ul>
+<h2>Rastreabilidade</h2>
+<p>Este relatório acompanha a matriz gerada e deve ser arquivado com os arquivos da revisão para permitir auditoria do processo de busca, seleção, análise e classificação.</p>
+</body>
+</html>
